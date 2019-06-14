@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard.iOS\\DDGuard.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard.iOS\\DDGuard.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard.iOS\\DDGuard.iOS.csproj",
+        "projectName": "DDGuard.iOS",
+        "projectPath": "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard.iOS\\DDGuard.iOS.csproj",
+        "packagesPath": "C:\\Users\\dpcfr\\.nuget\\packages\\",
+        "outputPath": "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dpcfr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard\\DDGuard.csproj": {
+                "projectPath": "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard\\DDGuard.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.264807, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard\\DDGuard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard\\DDGuard.csproj",
+        "projectName": "DDGuard",
+        "projectPath": "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard\\DDGuard.csproj",
+        "packagesPath": "C:\\Users\\dpcfr\\.nuget\\packages\\",
+        "outputPath": "C:\\DDSoft\\Projects\\Xamarin\\DDGuard\\DDGuard\\DDGuard\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dpcfr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.264807, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

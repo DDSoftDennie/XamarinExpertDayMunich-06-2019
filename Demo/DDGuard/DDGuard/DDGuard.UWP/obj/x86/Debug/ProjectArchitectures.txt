@@ -1,0 +1,1 @@
+C:\DDSoft\Projects\Xamarin\DDGuard\DDGuard\DDGuard.UWP\DDGuard.UWP.csproj;x86

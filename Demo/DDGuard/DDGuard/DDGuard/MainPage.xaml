@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DDGuard"
+             x:Class="DDGuard.MainPage">
+
+    <StackLayout VerticalOptions="FillAndExpand">
+        <Label Text="Battery:"/>
+        <ProgressBar x:Name="BatteryProgressBar" VerticalOptions="FillAndExpand" Progress="100"/>
+        <Button x:Name="NoConnectionButton" BackgroundColor="Red" Text="Error: No Internet!" TextColor="White" HorizontalOptions="FillAndExpand" IsVisible="False"
+          Clicked="NoConnectionButton_Clicked"     />
+        <!--<Button x:Name="FlashLightButton" BackgroundColor="DarkGreen" Text="Flashlight" TextColor="White" HorizontalOptions="FillAndExpand"
+                />-->
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <Button x:Name="HappyButton" Text="😊" FontSize="42" BackgroundColor="DarkGreen" Clicked="HappyButton_Clicked"/>
+            <Button x:Name="SadButton" Text="😥" FontSize="42" BackgroundColor="DarkRed" Clicked="SadButton_Clicked"/>
+            <Button x:Name="CriticButton" Text="!😡" FontSize="42" TextColor="White" BackgroundColor="Red" Clicked="CriticButton_Clicked"/>
+        </StackLayout>
+        <Button x:Name="ReportButton" BackgroundColor="Blue" Text="Report" TextColor="White" HorizontalOptions="FillAndExpand"
+             Clicked="ReportButton_Clicked"   />
+        <Button x:Name="SiteButton" BackgroundColor="Blue" Text="Browse for Relaxation" TextColor="White" HorizontalOptions="FillAndExpand"
+              Clicked="SiteButton_Clicked"  />
+
+    </StackLayout>
+
+</ContentPage>
